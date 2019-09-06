@@ -6,5 +6,153 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".FirstActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:text="please check your information"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="#222"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#aaaaaa"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+<TextView
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:textColor="#000000"
+    android:text="NAME :"
+    android:gravity="center"/>
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="#000000"
+            android:text="reza"
+            android:gravity="center" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#cccccc"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:text="FAMILY :"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/txtFamily"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="#000000"
+            android:text="reza"
+            android:gravity="center" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#aaaaaa"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:text="AGE :"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/txtAge"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="#000000"
+            android:text="reza"
+            android:gravity="center" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#cccccc"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:text="E-MAIL :"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/txtMail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="#000000"
+            android:text="reza"
+            android:gravity="center" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="4">
+        <Button
+            android:id="@+id/btnCo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="confirm"
+            android:layout_margin="30dp"
+            android:background="#555"
+            android:textSize="22sp"
+            android:textColor="#fff">
+        </Button>
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="edit"
+            android:layout_margin="30dp"
+
+            android:background="#555"
+            android:textSize="22sp"
+            android:textColor="#fff">
+        </Button>
+    </LinearLayout>
+
 
 </LinearLayout>
